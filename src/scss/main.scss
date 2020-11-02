@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+@import "settings/reset";
+@import "settings/colors";
+@import "settings/fonts";
+// @import "normalize";
+
+body {
+  font-family: $font-base;
+}
+
+.menu {
+ color: #F0F1F1;
+
+ ul {
+   list-style-type: none;
+ }
+}
