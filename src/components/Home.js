@@ -1,9 +1,21 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from "./Header";
+import ThreeColumns from "./ThreeColums";
+import SimpleSteps from "./SimpleSteps";
+import AboutUs from "./AboutUs";
+import WhoWeHelp from "./WhoWeHelp";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <ThreeColumns />
+      <SimpleSteps />
+      <AboutUs />
+      <WhoWeHelp />
+      <Contact />
+    </>
   )
 };
 

@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  height: 100vh;
+}
+
+.header-picture {
+  width: 44.5vw;
+  height: 100vh;
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.header-content {
+  width: 48vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-buttons {
+  margin-top: 2.6rem;
+  margin-bottom: 1.7rem;
+  display: flex;
+  flex-direction: row-reverse;
+
+  button {
+  width: 9rem;
+  height: 3.6rem;
+  background-color: #ffffff;
+  border: none;
+  color: $textMenuButtonColor;
+  }
+  button:hover {
+    box-sizing: border-box;
+    border: 0.75px solid $borderButtonColor;
+    cursor: pointer;
+  }
+}
+
+.menu {
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      box-sizing: border-box;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.9rem 1.7rem;
+    }
+
+    a:hover {
+      border: 0.75px solid $darkGreyColor;
+      padding: calc(0.9rem - 0.75px) calc(1.7rem - 0.75px);
+      cursor: pointer;
+    }
+    li {
+      font-size: 1.4rem;
+      color: $darkGreyColor;
+    }
+  }
+}
+
+.header-start-help {
+  margin-top: -50rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto 0;
+  
+  .header-content-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .header-buttons {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.give-button, .arrange-button {
+  font-weight: 300;
+  font-family: $font-base;
+  color: $darkGreyColor;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 22rem;
+  height: 9rem;
+  background-color: #fff;
+  border: 0.3px solid $darkGreyColor;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 4rem;
+  color: $darkGreyColor;
+}

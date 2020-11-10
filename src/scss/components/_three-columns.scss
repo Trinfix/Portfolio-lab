@@ -1,0 +1,42 @@
+.three-columns {
+  height: 39vh;
+  width: 100%;
+  background-image: url(../../assets/3-Columns-Background.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10rem;
+
+  .three-columns-section {
+    width: 25.0%;
+    height: 65.625%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
+
+    h2 {
+      margin-top: -0.5rem;
+      font-weight: 300;
+      font-size: 7rem;
+      line-height: 8rem;
+      color: $dirtyGreenColor;
+    }
+    h3 {
+      margin: auto 0;
+      color: $darkGreyColor;
+      font-size: 1.5rem;
+      letter-spacing: -0.024rem;
+    }
+    p {
+      font-family: $font-alt;
+      margin: auto 0;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      font-weight: 300;
+      letter-spacing: -0.024rem;
+      color: $darkGreyColor;
+    }
+  }
+}

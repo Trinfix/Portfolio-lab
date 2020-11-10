@@ -1,0 +1,116 @@
+.who-we-help {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $darkGreyColor;
+
+  h2 {
+    margin-top: 4.9rem;
+    margin-bottom: 1.9rem;
+  }
+
+  img {
+    margin-bottom: 3rem;
+  }
+  .organizations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+
+    li {
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.7rem;
+      line-height: 2.2rem;
+      padding: 1.4rem 3.7rem;
+      text-align: center;
+      border: 0.75px solid #fff;
+    }
+    li:hover {
+      border: 0.75px solid $darkGreyColor;
+      cursor: pointer;
+    }
+  }
+  .who-we-help-description {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    text-align: center;
+    margin-top: 3.9rem;
+  }
+}
+
+.all-organizations {
+  width: 71%;
+  height: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .single-organization:first-of-type {
+    margin-top: 4.6rem;
+  }
+  .single-organization:last-of-type {
+    border: none;
+  }
+}
+
+
+.single-organization {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid $darkGreyColor;
+
+  h4 {
+    font-size: 1.8rem;
+    font-family: $font-alt;
+    font-weight: 300;
+    line-height: 2.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-family: $font-alt;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.73rem;
+  }
+
+  small {
+    font-family: $font-alt;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 8.5vw;
+  height: auto;
+
+  li {
+    width: 26%;
+    height: 4.4rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $darkGreyColor;
+    font-size: 1.5rem;
+  }
+  li:hover {
+    box-sizing: border-box;
+    border: 1px solid $greyColor;
+  }
+}

@@ -1,0 +1,38 @@
+.simple-steps {
+  height: 61vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+  h2 {
+    margin-top: 3rem;
+  }
+}
+
+.all-steps {
+  margin-top: 1rem;
+  width: 100%;
+  height: 36%;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: $lightGreyColor;
+  text-align: center;
+
+
+  h3 {
+    color: $darkGreyColor;
+    font-size: 1.5rem;
+  }
+  hr {
+    width: 6rem;
+    margin: 1.1rem auto;
+  }
+  p {
+    font-size: 1.2rem;
+    color: $darkGreyColor;
+  }
+}
