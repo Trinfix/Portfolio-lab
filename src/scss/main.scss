@@ -19,8 +19,5 @@
 html {
   font-family: $font-base;
   font-weight: 400;
-  font-size: 62.5%;
-  @media(min-width: 1700px) {
-    font-size:80%;
-  }
+  font-size: 45%;
 }
