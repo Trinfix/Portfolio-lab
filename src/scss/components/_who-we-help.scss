@@ -95,22 +95,28 @@
 .pagination {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   width: 8.5vw;
   height: auto;
 
   li {
-    width: 26%;
-    height: 4.4rem; 
+    height: 5rem;
+    padding: 0 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: $darkGreyColor;
     font-size: 1.5rem;
+    border: 1px solid #fff;
+  }
+
+  li:nth-of-type(2) {
+    margin: 0 1rem;
   }
   li:hover {
     box-sizing: border-box;
     border: 1px solid $greyColor;
+    cursor: pointer; 
   }
 }
