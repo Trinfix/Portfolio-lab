@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import headerContentPicture from "../assets/Decoration.svg";
 import {Link} from "react-scroll";
 const Header = () => {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Header from "./Header";
 import ThreeColumns from "./ThreeColums";
 import SimpleSteps from "./SimpleSteps";

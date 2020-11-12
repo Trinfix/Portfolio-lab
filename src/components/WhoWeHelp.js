@@ -12,7 +12,6 @@ const WhoWeHelp = () => {
   const [activeFoundations, setActiveFountations] = useState("");
   const [activeAllOrganizations, setActiveAllOrganizations] = useState("");
   const [activeLocalCollections, setActiveLocalCollections] = useState("");
-  const [activePage, setActivePage] = useState("");
 
   const [organizationsPerPage, setOrganizationsPerPage] = useState(3);
 
