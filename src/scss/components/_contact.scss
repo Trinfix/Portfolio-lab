@@ -23,7 +23,7 @@
 }
 
 .contact-form {
-  width: 29.5%;
+  width: 32%;
   height: 65%;
   display: flex;
   flex-direction: column;
@@ -58,11 +58,17 @@
   input {
     padding: 0.5rem 0;
     max-width: 270px;
-    width: 22rem;
+    width: 20rem;
     margin-top: 1.5rem;
     border: none;
     border-bottom: 1px solid $formBorderColor;
     outline-style: none;
+  }
+
+  .form-alert {
+    color: red;
+    margin-top: 0.7rem;
+    font-size: 1rem;
   }
 
   .message-form {

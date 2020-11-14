@@ -1,6 +1,7 @@
 import React from 'react';
 import headerContentPicture from "../assets/Decoration.svg";
 import {Link} from "react-scroll";
+import {NavLink} from "react-router-dom";
 const Header = () => {
 
   return (
@@ -8,8 +9,8 @@ const Header = () => {
       <div className="header-picture"></div>
       <div className="header-content">
         <div className="menu-buttons">
-          <button>Załóż konto</button>
-          <button>Zaloguj</button>
+          <NavLink to="/rejestracja"><button>Załóż konto</button></NavLink>
+          <NavLink to="/logowanie"><button>Zaloguj</button></NavLink>
         </div>
         <div className="menu">
           <ul>
@@ -36,8 +37,8 @@ const Header = () => {
             <img src={headerContentPicture} width="80%" height="auto" alt="decoration"></img>
           </div>
           <div className="header-buttons">
-            <button className="give-button">Oddaj<br />rzeczy</button>
-            <button className="arrange-button">Zorganizuj<br />zbiórkę</button>
+          <NavLink to="/logowanie"><button className="give-button">Oddaj<br />rzeczy</button></NavLink>
+          <NavLink to="/logowanie"><button className="arrange-button">Zorganizuj<br />zbiórkę</button></NavLink>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import simpleStepsPicture from "../assets/Decoration.svg";
 import icon1 from "../assets/Icon-1.svg";
 import icon2 from "../assets/Icon-2.svg";
@@ -37,7 +38,7 @@ const SimpleSteps = () => {
           <p>kurier przyjedzie <br /> w dogodnym terminie</p>
         </article>
       </div>
-      <button className="give-button">ODDAJ <br /> RZECZY</button>
+      <NavLink to="/logowanie"><button className="give-button">ODDAJ <br /> RZECZY</button></NavLink>
     </section>
   )
 }
